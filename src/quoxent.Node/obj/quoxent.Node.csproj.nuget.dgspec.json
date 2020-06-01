@@ -1,0 +1,180 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/prashant/blockcore-template/quoxent/src/quoxent.Node/quoxent.Node.csproj": {}
+  },
+  "projects": {
+    "/home/prashant/blockcore-template/quoxent/src/quoxent.Node/quoxent.Node.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/prashant/blockcore-template/quoxent/src/quoxent.Node/quoxent.Node.csproj",
+        "projectName": "quoxent.Node",
+        "projectPath": "/home/prashant/blockcore-template/quoxent/src/quoxent.Node/quoxent.Node.csproj",
+        "packagesPath": "/home/prashant/.nuget/packages/",
+        "outputPath": "/home/prashant/blockcore-template/quoxent/src/quoxent.Node/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/prashant/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/prashant/blockcore-template/quoxent/src/quoxent/quoxent.csproj": {
+                "projectPath": "/home/prashant/blockcore-template/quoxent/src/quoxent/quoxent.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Blockcore.Features.BlockStore": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.ColdStaking": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.Consensus": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.Diagnostic": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.MemoryPool": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.Miner": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.RPC": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.Wallet": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.NBitcoin": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/prashant/blockcore-template/quoxent/src/quoxent/quoxent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/prashant/blockcore-template/quoxent/src/quoxent/quoxent.csproj",
+        "projectName": "quoxent.Networks",
+        "projectPath": "/home/prashant/blockcore-template/quoxent/src/quoxent/quoxent.csproj",
+        "packagesPath": "/home/prashant/.nuget/packages/",
+        "outputPath": "/home/prashant/blockcore-template/quoxent/src/quoxent/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/prashant/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Blockcore.Features.Consensus": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.MemoryPool": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.Features.NodeHost": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Blockcore.NBitcoin": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

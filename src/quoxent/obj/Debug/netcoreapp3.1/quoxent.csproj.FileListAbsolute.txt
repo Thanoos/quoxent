@@ -1,0 +1,12 @@
+/home/prashant/blockcore-template/quoxent/src/quoxent/bin/Debug/netcoreapp3.1/quoxent.Networks.deps.json
+/home/prashant/blockcore-template/quoxent/src/quoxent/bin/Debug/netcoreapp3.1/quoxent.Networks.dll
+/home/prashant/blockcore-template/quoxent/src/quoxent/bin/Debug/netcoreapp3.1/quoxent.Networks.pdb
+/home/prashant/blockcore-template/quoxent/src/quoxent/bin/Debug/netcoreapp3.1/System.Reactive.dll
+/home/prashant/blockcore-template/quoxent/src/quoxent/bin/Debug/netcoreapp3.1/System.Reactive.xml
+/home/prashant/blockcore-template/quoxent/src/quoxent/obj/Debug/netcoreapp3.1/quoxent.csprojAssemblyReference.cache
+/home/prashant/blockcore-template/quoxent/src/quoxent/obj/Debug/netcoreapp3.1/quoxent.csproj.CoreCompileInputs.cache
+/home/prashant/blockcore-template/quoxent/src/quoxent/obj/Debug/netcoreapp3.1/quoxent.AssemblyInfoInputs.cache
+/home/prashant/blockcore-template/quoxent/src/quoxent/obj/Debug/netcoreapp3.1/quoxent.AssemblyInfo.cs
+/home/prashant/blockcore-template/quoxent/src/quoxent/obj/Debug/netcoreapp3.1/quoxent.csproj.CopyComplete
+/home/prashant/blockcore-template/quoxent/src/quoxent/obj/Debug/netcoreapp3.1/quoxent.Networks.dll
+/home/prashant/blockcore-template/quoxent/src/quoxent/obj/Debug/netcoreapp3.1/quoxent.Networks.pdb
